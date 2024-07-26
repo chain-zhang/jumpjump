@@ -1,6 +1,6 @@
 window.onload = function(){
   var game = new Phaser.Game(360, 600, Phaser.CANVAS, '');
-  AdController = window.Adsgram.init({ blockId: "1214" });
+  AdController = window.Adsgram.init({ blockId: "1238" });
   game.state.add("menu",menuState,true);
   game.state.add("main",mainState);
 };
